@@ -37,6 +37,6 @@ public class Lab {
             arrResult = arrResult + nums[i] + " ";
         }
 
-        return arrResult;
+        return arrResult.trim();
     }
 }
